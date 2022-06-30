@@ -16,7 +16,8 @@
 }
 
 .btn{
-    @apply bg-transparent  w-fit sm:block border-yellow-500   lg:text-lg  py-2 px-9 lg:px-7 m-2 rounded-2xl border-2 hover:bg-yellow-200 duration-500 hover:text-black;
+    @apply bg-transparent text-white font-bold bg-yellow-500 w-fit sm:block border-yellow-800   lg:text-lg  py-2 px-9 lg:px-7 m-2 rounded-2xl border-2 hover:bg-yellow-100 duration-500 hover:text-black;
+    
 }
 
 .dark-mode{
@@ -24,7 +25,7 @@
 }
 
 .main{
-    @apply flex flex-col-reverse lg:flex-row lg:justify-center lg:items-center bg-[#e6e5e5] dark:bg-[#070707] border-yellow-500  border-[1px] lg:border-2   mb-10 min-w-full dark:text-white pt-5 lg:pt-10 p-2 lg:p-10 rounded-3xl ;
+    @apply flex flex-col-reverse lg:flex-row lg:justify-center lg:items-center bg-[#e6e5e5] dark:bg-[#070707]   mb-10 min-w-full dark:text-white pt-5 lg:pt-10 p-2 lg:p-10 rounded-3xl ;
 }
 
 
