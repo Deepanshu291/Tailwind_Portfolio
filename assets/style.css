@@ -4,15 +4,15 @@
 
 @layer utilities{
 .nav{
-   @apply my-5 lg:my-10 flex  items-center justify-between py-5 lg:px-5  dark:text-white cursor-pointer sticky top-0 backdrop-filter backdrop-blur-lg z-10; 
+   @apply my-5 lg:my-10 flex  items-center justify-between py-5 lg:px-5  dark:text-white rounded-bl-3xl rounded-br-3xl backdrop-brightness-50 cursor-pointer sticky top-0 backdrop-filter backdrop-blur-lg   z-10; 
 
 }
 .nav ul{
-    @apply flex space-x-4 justify-end items-center    lg:text-lg ;
+    @apply flex space-x-4 justify-end items-center opacity-100   lg:text-lg ;
 }
 
 .nav ul li{
-   @apply hover:text-slate-800 transition-shadow;
+   @apply hover:text-slate-800 transition-shadow opacity-100;
 }
 
 .btn{
